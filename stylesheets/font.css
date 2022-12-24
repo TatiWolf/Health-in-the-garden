@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Gropled';
+    src: local('./font/Gropled-Bold'),
+    url('../font/Gropled-Bold.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: local('./font/BebasNeue Regular'),
+    url('../font/BebasNeue Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('./font/Montserrat-Medium'),
+    url('../font/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    color: #FFE1C2;
+    font-weight: 400;
+    line-height: 1;
+    margin: 0;
+}
+
+h1 {
+    font-family: Gropled;
+    font-size: clamp(3rem, 2.1455rem + 4.7309vw, 8rem);
+}
+
+h2 {
+    font-family: Gropled;
+    font-size: clamp(1.5rem, 1.3718rem + 0.7096vw, 2.25rem);
+}
+
+h3 {
+    font-family: "Bebas Neue";
+    font-size: clamp(1.875rem, 1.7895rem + 0.4731vw, 2.375rem);
+    opacity: 60%;
+}
+
+.mini {
+    font-family: "Bebas Neue";
+    font-size: clamp(0.875rem, 0.7682rem + 0.5914vw, 1.5rem);
+}
+
+p {
+    font-family: Montserrat;
+    font-size: clamp(0.875rem, 0.8109rem + 0.3548vw, 1.25rem);
+    margin: 1vw 0 0 0;
+}

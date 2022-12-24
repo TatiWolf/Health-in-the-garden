@@ -1,0 +1,46 @@
+@media only screen and (max-width: 1224px) {
+    /* Desktop */
+    .lol{
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* iPad */
+
+.lol{
+    /* display:none !important; */
+    color:pink;
+}
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    /* iPad Portrait */
+    .lol{
+        display:none !important
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /* iPad Landscape */
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+    /* iPhone Portrait */
+    .lol{
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+    /* iPhone Landscape */
+    .lol{
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+    /* iPhone Portrait */
+}
