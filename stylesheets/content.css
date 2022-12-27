@@ -3,6 +3,7 @@
 }
 html, body{
     height: 100%;
+    /*overflow-x: hidden;*/
 }
 
 
@@ -47,19 +48,32 @@ a:-webkit-any-link {
     object-position: right bottom;
     z-index: 0;
     margin-top: -420px;
-    animation: animate_grow 2s infinite;
 }
 
-@keyframes animate_grow {
-    0% {
-        transform: scale3d(1, 1, 1);
+@keyframes swing {
+    15% {
+        transform: translateX(5px);
+    }
+    30% {
+        transform: translateX(-5px);
     }
     50% {
-        transform: scale3d(1.05, 1.05, 1.05);
+        transform: translateX(3px);
+    }
+    65% {
+        transform: translateX(-3px);
+    }
+    80% {
+        transform: translateX(2px);
     }
     100% {
-        transform: scale3d(1, 1, 1);
+        transform: translateX(0);
     }
+}
+
+.swaying {
+    animation: swing 2s infinite;
+    animation-iteration-count: infinite;
 }
 
 .head-text {
@@ -97,7 +111,9 @@ a:-webkit-any-link {
     justify-content: space-between;
     margin-top: -2800px;
 }
-
+.line3{
+    font: inherit;
+}
 .boyarnyshik {
     display: flex;
     flex-direction: column;
@@ -185,7 +201,10 @@ a:-webkit-any-link {
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: row;
+    margin: 7vw 0 0 0 ;
+    padding: 0 0 3vw 0 ;
 }
+
 
 .left-text {
     margin: 0 0 0 3.47vw;

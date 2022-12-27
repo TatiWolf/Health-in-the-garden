@@ -4,4 +4,7 @@
 /* контент / содержимое  */
 @import "responsive.css";
 /* адаптивность */
-@import "font.css"; /* шрифт */
+@import "font.css";
+/* шрифт */
+@import "module-windows.css";
+/* всплывающие окна на мобильной версии */

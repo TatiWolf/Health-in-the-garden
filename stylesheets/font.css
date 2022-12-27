@@ -7,9 +7,10 @@
 }
 
 @font-face {
-    font-family: 'BebasNeue';
+    font-family: 'BN';
     src: local('./font/BebasNeue Regular'),
-    url('../font/BebasNeue Regular.ttf') format('truetype');
+    url('../font/BebasNeue Regular.ttf') format('truetype'),
+    url("../font/bebasneueregular.woff") format("woff");
     font-weight: 400;
     font-style: normal;
 }
@@ -40,15 +41,23 @@ h2 {
 }
 
 h3 {
-    font-family: "Bebas Neue";
-    font-size: clamp(1.875rem, 1.7895rem + 0.4731vw, 2.375rem);
+    font-family: "BN";
+    font-size: clamp(1.25rem, 0.9509rem + 1.6558vw, 3rem);
     opacity: 60%;
 }
 
 .mini {
-    font-family: "Bebas Neue";
+    font-family: "BN";
     font-size: clamp(0.875rem, 0.7682rem + 0.5914vw, 1.5rem);
 }
+
+.minima{
+    font-family: "BN";
+    font-size: clamp(0.875rem, 0.7682rem + 0.5914vw, 1.5rem);
+    position: absolute;
+    margin: -3px 0 0 0;
+}
+
 
 p {
     font-family: Montserrat;
