@@ -1,11 +1,15 @@
-*{
+* {
     box-sizing: border-box;
 }
-html, body{
+
+html, body {
     height: 100%;
     /*overflow-x: hidden;*/
 }
 
+.section-header {
+    position: relative;
+}
 
 body {
     background-color: #34768D;
@@ -42,12 +46,15 @@ a:-webkit-any-link {
 }
 
 .head-img {
-    display: flex;
-    float: right;
-    object-fit: cover;
-    object-position: right bottom;
-    z-index: 0;
-    margin-top: -420px;
+    /*display: flex;*/
+    /*float: right;*/
+    /*object-fit: cover;*/
+    /*object-position: right bottom;*/
+    /*z-index: 0;*/
+    /*margin-top: -420px;*/
+    position: absolute;
+    top: 0;
+    right: 0
 }
 
 @keyframes swing {
@@ -77,8 +84,9 @@ a:-webkit-any-link {
 }
 
 .head-text {
-    margin: 9.72vw 0 0 8.68vw;
+    /*margin: 0 0 0 8.68vw;*/
     z-index: 1;
+    padding: 150px 0 0 60px;
     position: relative;
 }
 
@@ -93,6 +101,7 @@ a:-webkit-any-link {
 .human {
     z-index: 0;
     width: calc(100% - 20px);
+
     display: flex;
     object-fit: cover;
     object-position: center;
@@ -111,9 +120,11 @@ a:-webkit-any-link {
     justify-content: space-between;
     margin-top: -2800px;
 }
-.line3{
+
+.line3 {
     font: inherit;
 }
+
 .boyarnyshik {
     display: flex;
     flex-direction: column;
@@ -137,7 +148,7 @@ a:-webkit-any-link {
 }
 
 .gingo-img {
-    width: calc(100% - 20px);
+    /*width: calc(100% - 20px);*/
 }
 
 .line2 {
@@ -201,8 +212,8 @@ a:-webkit-any-link {
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: row;
-    margin: 7vw 0 0 0 ;
-    padding: 0 0 3vw 0 ;
+    margin: 7vw 0 0 0;
+    padding: 0 0 3vw 0;
 }
 
 
