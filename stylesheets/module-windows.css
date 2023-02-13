@@ -165,7 +165,6 @@
     object-fit: cover;
     object-position: center;
     justify-content: center;
-    overflow: hidden;
 }
 
 .heart {
