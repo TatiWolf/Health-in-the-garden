@@ -160,6 +160,7 @@
 
 .human-pnone {
     z-index: 0;
+    width: auto;
     display: flex;
     object-fit: cover;
     object-position: center;
